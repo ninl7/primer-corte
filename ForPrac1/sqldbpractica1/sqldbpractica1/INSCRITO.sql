@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[INSCRITO]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Id_al] INT NOT NULL, 
+    [Cod] INT NOT NULL, 
+    CONSTRAINT [FK_INSCRITO_ALUMNO] FOREIGN KEY ([Id_al]) REFERENCES [ALUMNO]([Id]), 
+
+   
+   
+)
