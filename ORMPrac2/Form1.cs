@@ -1,0 +1,69 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ORMPrac2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using (model.DB2EntityContainer db = new model.DB2EntityContainer())
+            {
+                var oAgents = db.AGENTS.ToList();
+                if (oAgents.Count > 0)
+                {
+
+                    MessageBox.Show("la base de datos ya contiene informacion", "y operacion exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    //todo
+                    //se debe llenar la base de datos/
+                    { // fill fb
+                        using (var dbTransaction = db.Database.BeginTransaction())
+                        {
+                            try
+                            {
+                                List<Model.AGENTS> agents = new List<Model.AGENTS>();
+
+                                agents.Add(new Model.AGENTS { AGENT_CODE = 6, AGENT_NAME = "Ramasundar", WORKING_AREA = "Bangalore", COMMISSION = 0.15m, COUNTRY = "", PHONE_NO = "077-25814763" });
+                                agents.Add(new Model.AGENTS { AGENT_CODE = 3, AGENT_NAME = "Alex", WORKING_AREA = "London", COMMISSION = 0.13m, COUNTRY = "", PHONE_NO = "075-12458969" });
+
+                                db.AGENTS.AddRange(agents);
+                                db.SaveChanges();
+                                dbTransaction.Commit();
+
+                                MessageBox.Show("Database has been populated successfully", "Successful operation", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                            catch (Exception ex)
+                            {
+                                dbTransaction.Rollback();
+                                MessageBox.Show("An unexpected error occured, database could not be filled. \n\nApplication will be closed.", "Error found", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                Application.Exit();
+
+                                return;
+                            }
+                        }
+
+
+                        MessageBox.Show("la base de datos ha sido poblada con exito ", "operacion exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                button1.Enabled = false; 
+            }
+
+        }
+    }
+}
