@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="a458fda3-968b-43db-8235-17fe1019b135" ChangeDateTime="11/05/2021 01:48:31" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Proveedor].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Proveedor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="nit" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="958645af-465b-4de4-95cd-86b9860cef46" ChangeDateTime="11/05/2021 01:48:59" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Proveedor].[nombre]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Proveedor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="nombre_provvedor" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="265013bf-e1da-4829-910f-008d54fae243" ChangeDateTime="11/05/2021 01:49:02" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Proveedor].[nombre_provvedor]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Proveedor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="nombre_proveedor" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fb28fcf2-da3c-4b9c-916b-f31be4888f0e" ChangeDateTime="11/05/2021 01:49:35" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Proveedor].[email_]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Proveedor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="email_proveedor" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="56b21af3-3610-41d4-b96c-188aff7a1c0b" ChangeDateTime="11/05/2021 01:51:45" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Producto].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Producto]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_producto" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f0feb67e-bd79-4196-b267-4cac90b42783" ChangeDateTime="11/05/2021 01:57:20" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Tipo_producto].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tipo_producto]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_tipo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cdfee6b1-718a-4a93-9abd-65386b4826d9" ChangeDateTime="11/05/2021 01:58:06" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Tipo_producto].[precio]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tipo_producto]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="perecedero" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="39f54b57-da46-467a-9c6c-7e8581677980" ChangeDateTime="11/05/2021 01:59:18" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Producto].[Id_producto]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Producto]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_producto" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5ca08210-afc8-45a9-9086-92e13e0125e7" ChangeDateTime="11/05/2021 02:07:11" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Personal].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Personal]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cc" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fe8a0415-a095-464e-98d7-3e40b3a5d591" ChangeDateTime="11/05/2021 02:07:25" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Personal].[cc]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Personal]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cc_personal" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ea0fc619-c9f5-4c28-8a1f-82d80b21cf09" ChangeDateTime="11/05/2021 02:09:01" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Personal].[dirrecional]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Personal]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="dirrecion_personal" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9b5fe1e9-a158-423e-b08c-fa6e861a01f8" ChangeDateTime="11/05/2021 02:09:35" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Personal].[fecha]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Personal]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="fecha_" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="864e914c-3fcc-485a-b9bd-895d74297ca4" ChangeDateTime="11/05/2021 02:09:58" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Personal].[fecha_]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Personal]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="fecha_nacimiento_personal" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="628eed4f-77bb-45f9-9b6c-81e04aba165b" ChangeDateTime="11/05/2021 02:10:31" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Personal].[passwork]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Personal]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="password" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aceb4a69-f1e3-428e-9485-53e474c0ebe7" ChangeDateTime="11/05/2021 02:13:25" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Cliente].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Cliente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cc_cliente" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2055a93d-7a26-4a74-9543-39a3acc02ebf" ChangeDateTime="11/05/2021 02:14:35" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Cliente].[email]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Cliente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="email_cliente" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5ec8569c-40d2-41bc-ae56-44a3e4618474" ChangeDateTime="11/05/2021 02:15:18" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Cliente].[fecha_]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Cliente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="fecha_nacimiento_cliente" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cc84c8d9-085a-4565-9840-a99f04c29f35" ChangeDateTime="11/05/2021 02:18:14" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[facturacion].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[facturacion]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_factura" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6d8459f3-ac2a-43e6-98cd-fc88954032ee" ChangeDateTime="11/05/2021 02:21:32" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[facturacion].[monto_]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[facturacion]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="monto_iva" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0a1b12cf-2bda-4aaa-9cc1-d42b319f846e" ChangeDateTime="11/05/2021 02:23:01" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[facturacion].[cc]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[facturacion]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cc_cliente" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f22bf31c-f4c9-4b03-a4a4-7a30ddafed9a" ChangeDateTime="11/05/2021 02:24:39" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Venta].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Venta]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_venta" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d4e9add1-b015-43cf-a444-cb697023536a" ChangeDateTime="11/05/2021 02:26:35" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Lugar_stock].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lugar_stock]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_lugar" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="06d5400f-0e1e-438c-a265-3f4cb23bd196" ChangeDateTime="11/05/2021 02:27:53" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Lugar_stock].[unique]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lugar_stock]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="borde_producto" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a0f19b2a-7f10-43b0-868d-f00050918da9" ChangeDateTime="11/05/2021 02:28:46" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Lugar_stock].[cantidad_gondole]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lugar_stock]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cantidad_gondola" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5f00faf6-82fd-49c8-a819-84e3fe5afc4e" ChangeDateTime="11/05/2021 02:29:08" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Lugar_stock].[seccion_]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lugar_stock]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="seccion_bodega" />
+  </Operation>
+</Operations>

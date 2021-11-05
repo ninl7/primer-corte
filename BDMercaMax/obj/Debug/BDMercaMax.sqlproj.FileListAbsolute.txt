@@ -1,0 +1,10 @@
+C:\Users\Mi Dany\Desktop\git\primer-corte\BDMercaMax\bin\Debug\BDMercaMax.dacpac
+C:\Users\Mi Dany\Desktop\git\primer-corte\BDMercaMax\bin\Debug\BDMercaMax.dll
+C:\Users\Mi Dany\Desktop\git\primer-corte\BDMercaMax\bin\Debug\BDMercaMax.pdb
+C:\Users\Mi Dany\Desktop\git\primer-corte\BDMercaMax\obj\Debug\BDMercaMax.sqlproj.AssemblyReference.cache
+C:\Users\Mi Dany\Desktop\git\primer-corte\BDMercaMax\obj\Debug\Model.xml
+C:\Users\Mi Dany\Desktop\git\primer-corte\BDMercaMax\obj\Debug\refactor.xml
+C:\Users\Mi Dany\Desktop\git\primer-corte\BDMercaMax\obj\Debug\postdeploy.sql
+C:\Users\Mi Dany\Desktop\git\primer-corte\BDMercaMax\obj\Debug\predeploy.sql
+C:\Users\Mi Dany\Desktop\git\primer-corte\BDMercaMax\obj\Debug\BDMercaMax.dll
+C:\Users\Mi Dany\Desktop\git\primer-corte\BDMercaMax\obj\Debug\BDMercaMax.pdb

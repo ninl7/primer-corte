@@ -1,0 +1,28 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[Cliente] (Tabla)
+       [dbo].[facturacion] (Tabla)
+       [dbo].[Lugar_stock] (Tabla)
+       [dbo].[Personal] (Tabla)
+       [dbo].[Producto] (Tabla)
+       [dbo].[Proveedor] (Tabla)
+       [dbo].[Tipo_producto] (Tabla)
+       [dbo].[Venta] (Tabla)
+       [dbo].[FK_facturacion_ToTable] (Clave externa)
+       [dbo].[FK_facturacion_ToTable_1] (Clave externa)
+       [dbo].[FK_facturacion_ToTable_2] (Clave externa)
+       [dbo].[FK_Producto_ToTable] (Clave externa)
+       [dbo].[FK_Producto_ToTable_1] (Clave externa)
+       [dbo].[FK_Venta_ToTable] (Clave externa)
+
+** Acciones de compatibilidad
